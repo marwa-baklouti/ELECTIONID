@@ -11,5 +11,6 @@ namespace election
     class ElectionContext : DbContext
     {
         public DbSet<Candidat> Candidats { get; set; }
+        public DbSet<Administrateur> Administrateurs { get; set; }
     }
 }
